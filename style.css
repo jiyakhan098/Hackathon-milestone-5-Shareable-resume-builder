@@ -1,0 +1,85 @@
+body{
+   justify-content: center;
+   align-items: center;
+   padding: 30px;
+   font-family:'Times New Roman';
+   text-align: center;
+}
+#resume-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 0 auto;
+
+}
+#left-section{
+    background-color:skyblue ;
+    border-radius: 17px; 
+    padding: 35px;
+    margin-left: 135px;
+    margin-right: 15px;
+    width: 35%;
+    box-shadow: 0 0 20px rgb(85, 200, 246);
+}
+#shareable-link-container{
+    background-color: rgb(130, 130, 255);
+    border-radius: 17px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(88, 88, 255);
+   
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    padding: 15px;
+    box-shadow: 0 0 25px rgb(92, 92, 255);
+    border-radius: 10px;
+    margin: auto ;  
+    max-width: 570px;  
+}
+fieldset{
+    border-radius: 10px;
+    padding: 0 auto;
+    background-color: rgb(192, 237, 255);
+    font-weight: bold;
+    border: 2.5px solid 
+
+}
+legend{  
+    color:navy;
+    
+}
+input,textarea{
+    background-color: rgb(234, 245, 255);
+    border-radius: 6px;
+    padding: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;;
+}
+button{
+    font-family: Arial, sans-serif;
+    background-color:rgb(255, 199, 208);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: black;
+    border: 2px solid rgb(255, 92, 119);
+}
+button:hover{
+    background-color: rgb(255, 157, 173);
+}
+#resume-display {
+    max-width: 550px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid rgb(192, 237, 255);
+    border-radius: 8px;
+    background-color: skyblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
